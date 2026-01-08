@@ -1,0 +1,16 @@
+# KiCad backups
+*.bak
+*.tmp
+*.lck
+*-cache.lib
+*-rescue.kicad_sym
+*.dcm
+
+# Gerbers / outputs
+gerbers/
+fabrication/
+output/
+
+# OS junk
+.DS_Store
+Thumbs.db
