@@ -14012,6 +14012,32 @@
 		(layer "Edge.Cuts")
 		(uuid "c811ac0a-77cf-471b-9b32-12f1f9070620")
 	)
+	(gr_text "Flash"
+		(at 129.35 34 0)
+		(layer "F.Cu")
+		(uuid "281565da-8707-424c-b6d3-a348e04036a3")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.15)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "Bricked"
+		(at 128.8 40.8 0)
+		(layer "F.Cu")
+		(uuid "d5b6716e-6268-4749-8318-187cf1280a20")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.15)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
 	(segment
 		(start 148.071565 52.178435)
 		(end 148.05 52.2)
