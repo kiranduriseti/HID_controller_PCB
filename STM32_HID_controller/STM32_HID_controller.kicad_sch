@@ -6480,6 +6480,12 @@
 		(uuid "dd099279-fa49-4fa8-8739-c25ae37d6e65")
 	)
 	(junction
+		(at 95.25 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e3aa332f-012a-4183-bf43-944fd8aedf2a")
+	)
+	(junction
 		(at 245.11 25.4)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6490,6 +6496,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f0ea952a-22e0-4b34-999d-27d695dbabcf")
+	)
+	(junction
+		(at 95.25 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f1df679e-e3a6-421d-b13f-875480a2020a")
 	)
 	(junction
 		(at 229.87 45.72)
@@ -6701,6 +6713,16 @@
 	)
 	(wire
 		(pts
+			(xy 92.71 123.19) (xy 95.25 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0da3630a-032c-4779-92b4-8582cc5b0092")
+	)
+	(wire
+		(pts
 			(xy 31.75 35.56) (xy 43.18 35.56)
 		)
 		(stroke
@@ -6718,6 +6740,16 @@
 			(type default)
 		)
 		(uuid "102f5413-9d94-4943-8386-762f186e1a95")
+	)
+	(wire
+		(pts
+			(xy 95.25 120.65) (xy 110.49 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "114bbb64-b8be-48d4-9a04-9752eff738fa")
 	)
 	(wire
 		(pts
@@ -7421,6 +7453,16 @@
 	)
 	(wire
 		(pts
+			(xy 95.25 123.19) (xy 95.25 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c2876d1-80a1-4d76-b35f-2fa2913d1aee")
+	)
+	(wire
+		(pts
 			(xy 181.61 27.94) (xy 181.61 35.56)
 		)
 		(stroke
@@ -7851,6 +7893,16 @@
 	)
 	(wire
 		(pts
+			(xy 95.25 123.19) (xy 110.49 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb7e9386-167f-4f7a-b880-6858852ed9bb")
+	)
+	(wire
+		(pts
 			(xy 207.01 60.96) (xy 208.28 60.96)
 		)
 		(stroke
@@ -8218,6 +8270,16 @@
 			(type default)
 		)
 		(uuid "f58d3721-3149-4243-a597-547945c140eb")
+	)
+	(wire
+		(pts
+			(xy 92.71 120.65) (xy 95.25 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9651786-e845-4c31-a7ac-26ae48229241")
 	)
 	(wire
 		(pts
@@ -8855,7 +8917,7 @@
 	)
 	(global_label "i2c_sda"
 		(shape input)
-		(at 110.49 120.65 180)
+		(at 92.71 120.65 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8865,7 +8927,7 @@
 		)
 		(uuid "7132fb8a-93b5-4661-9320-ec736e24862a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 100.3082 120.65 0)
+			(at 82.5282 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8987,7 +9049,7 @@
 	)
 	(global_label "i2c_scl"
 		(shape input)
-		(at 110.49 123.19 180)
+		(at 92.71 123.19 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8997,7 +9059,7 @@
 		)
 		(uuid "8c6dfff0-cfd1-448f-8107-35b71d38a663")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 100.8524 123.19 0)
+			(at 83.0724 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13166,6 +13228,141 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 95.25 113.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8a16279d-e848-432b-a91a-75309d79e8d0")
+		(property "Reference" "#PWR060"
+			(at 95.25 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 95.25 110.236 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 95.25 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 95.25 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 95.25 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6c50907b-13b2-483d-98b1-fae54942682c")
+		)
+		(instances
+			(project "STM32_HID_controller"
+				(path "/93f508db-e88d-474d-97a3-a9b92fae4357"
+					(reference "#PWR060")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 95.25 116.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8f998d6d-c0d7-46b1-9e80-0c4e6f08c6be")
+		(property "Reference" "R3"
+			(at 91.44 115.316 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7k"
+			(at 89.408 117.348 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 93.472 116.84 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 95.25 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 95.25 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f26cbf54-fcdb-4c71-812e-84a81e9ce158")
+		)
+		(pin "2"
+			(uuid "9018a563-b4c2-4cec-970b-3fb9f147add0")
+		)
+		(instances
+			(project "STM32_HID_controller"
+				(path "/93f508db-e88d-474d-97a3-a9b92fae4357"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 247.65 120.65 90)
 		(unit 1)
@@ -16960,6 +17157,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 95.25 129.54 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e997e09b-f019-4d6c-a143-b193bf5c32d2")
+		(property "Reference" "R4"
+			(at 99.06 131.064 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7k"
+			(at 101.092 129.032 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 97.028 129.54 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 95.25 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 95.25 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f13ca3b0-7646-4752-8063-5e6926963034")
+		)
+		(pin "2"
+			(uuid "4d7b98df-dc09-4e97-8e67-0b4ef83c4717")
+		)
+		(instances
+			(project "STM32_HID_controller"
+				(path "/93f508db-e88d-474d-97a3-a9b92fae4357"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Regulator_Linear:AMS1117-3.3")
 		(at 31.75 24.13 0)
 		(unit 1)
@@ -17460,6 +17726,72 @@
 			(project ""
 				(path "/93f508db-e88d-474d-97a3-a9b92fae4357"
 					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 95.25 133.35 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f5cfaa3c-9577-4ebc-83c4-15d5202f7257")
+		(property "Reference" "#PWR061"
+			(at 95.25 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 95.25 136.144 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 95.25 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 95.25 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 95.25 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f8b19d5d-27a1-49cf-90ea-8ea0a74ec58e")
+		)
+		(instances
+			(project "STM32_HID_controller"
+				(path "/93f508db-e88d-474d-97a3-a9b92fae4357"
+					(reference "#PWR061")
 					(unit 1)
 				)
 			)
