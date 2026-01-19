@@ -512,7 +512,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "./Manufacturer_main_controller",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",

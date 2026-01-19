@@ -475,7 +475,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "STM32_HID_controller.kicad_pro",
+    "filename": "STM32_HID_controller-right.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -511,7 +511,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "./Manufacturer_controller_shoulder",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
