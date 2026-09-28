@@ -154,7 +154,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -181,6 +181,12 @@
 		(path "/363c3289-9ed5-4f94-8de7-0c538d704a9f")
 		(sheetname "/")
 		(sheetfile "STM32_HID_controller-right.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -374,7 +380,7 @@
 			(remove_unused_layers no)
 			(roundrect_rratio 0.15625)
 			(net "GND")
-			(pinfunction "1")
+			(pinfunction "1_1")
 			(pintype "passive")
 			(uuid "c781ccb1-b11e-4ab9-9c29-0f89c4332f6d")
 		)
@@ -385,7 +391,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "Net-(J4-Pin_3)")
-			(pinfunction "2")
+			(pinfunction "2_2")
 			(pintype "passive")
 			(uuid "f5814a3e-22fb-4e62-ad49-1511177b1d69")
 		)
@@ -430,7 +436,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -458,7 +464,13 @@
 		(path "/9ecbe613-cec1-49af-af82-e5c5c17c7964")
 		(sheetname "/")
 		(sheetfile "STM32_HID_controller-right.kicad_sch")
-		(attr exclude_from_pos_files exclude_from_bom)
+		(units
+			(unit
+				(name "A")
+				(pins)
+			)
+		)
+		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -530,7 +542,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -558,7 +570,13 @@
 		(path "/6fafa900-1f33-464e-99f6-a3aef72eb86e")
 		(sheetname "/")
 		(sheetfile "STM32_HID_controller-right.kicad_sch")
-		(attr exclude_from_pos_files exclude_from_bom)
+		(units
+			(unit
+				(name "A")
+				(pins)
+			)
+		)
+		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -630,7 +648,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -659,6 +677,12 @@
 		(path "/247a384d-4952-4334-9b2e-12419ca301d5")
 		(sheetname "/")
 		(sheetfile "STM32_HID_controller-right.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -850,7 +874,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "Net-(J4-Pin_2)")
-			(pinfunction "1")
+			(pinfunction "1_1")
 			(pintype "passive")
 			(uuid "33ef06fa-2d81-45b3-b152-712f8c80a541")
 		)
@@ -861,7 +885,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "Net-(J4-Pin_2)")
-			(pinfunction "1")
+			(pinfunction "1_1")
 			(pintype "passive")
 			(uuid "503828ec-d1b9-4f79-9889-021931f9b5ff")
 		)
@@ -872,7 +896,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "GND")
-			(pinfunction "2")
+			(pinfunction "2_2")
 			(pintype "passive")
 			(uuid "543c6fa5-0952-449c-acad-32a49be69d12")
 		)
@@ -883,7 +907,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "GND")
-			(pinfunction "2")
+			(pinfunction "2_2")
 			(pintype "passive")
 			(uuid "5d5b7b08-11ff-4337-9135-74c6d9a5841e")
 		)
@@ -929,7 +953,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -957,6 +981,12 @@
 		(path "/d058901d-dde8-4340-8c83-22091cd68294")
 		(sheetname "/")
 		(sheetfile "STM32_HID_controller-right.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2" "3")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -1459,7 +1489,7 @@
 			(remove_unused_layers no)
 			(roundrect_rratio 0.147059)
 			(net "GND")
-			(pinfunction "Pin_1")
+			(pinfunction "Pin_1_1")
 			(pintype "passive")
 			(uuid "11b7509f-2bc9-40c5-856a-e64a283412fb")
 		)
@@ -1470,7 +1500,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "Net-(J4-Pin_2)")
-			(pinfunction "Pin_2")
+			(pinfunction "Pin_2_2")
 			(pintype "passive")
 			(uuid "69bbe703-44fc-4cb5-8cc9-53a5bce12f18")
 		)
@@ -1481,7 +1511,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "Net-(J4-Pin_3)")
-			(pinfunction "Pin_3")
+			(pinfunction "Pin_3_3")
 			(pintype "passive")
 			(uuid "b10882a7-4b1f-44ec-9724-b79957341206")
 		)
