@@ -1,5 +1,6 @@
 (sym_lib_table
-  (version 7)
-  (lib (name "ADXL345")(type "KiCad")(uri "${KIPRJMOD}/ADXL345/ADXL345.kicad_sym")(options "")(descr ""))
-  (lib (name "COM-09032")(type "KiCad")(uri "${KIPRJMOD}/COM-09032/COM-09032.kicad_sym")(options "")(descr ""))
+	(version 7)
+	(lib (name "ADXL345") (type "KiCad") (uri "${KIPRJMOD}/ADXL345/ADXL345.kicad_sym") (options "") (descr ""))
+	(lib (name "COM-09032") (type "KiCad") (uri "${KIPRJMOD}/COM-09032/COM-09032.kicad_sym") (options "") (descr ""))
+	(lib (name "ICM-42670-P") (type "KiCad") (uri "${KIPRJMOD}/ul_ICM-42670-P/KiCADv6/2026-09-28_00-48-43.kicad_sym") (options "") (descr ""))
 )

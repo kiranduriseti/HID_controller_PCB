@@ -1,1 +1,9 @@
 (version 1)
+(rule "ICM42670 clearance"
+    (condition "A.Reference == 'U7' || B.Reference == 'U7'")
+    (constraint clearance (min 0.10mm))
+)
+(rule "C24 clearance"
+    (condition "A.Reference == 'C24' || B.Reference == 'C24'")
+    (constraint clearance (min 0.15mm))
+)
